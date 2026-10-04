@@ -239,7 +239,7 @@ namespace OpenRA.Mods.Common.Traits
 						SuppressVisualFeedback = true
 					});
 
-					// After succesfuly placing a building, nudge BaseExpansionModules to expand.
+					// After successfully placing a building, nudge BaseExpansionModules to expand.
 					// We want to avoid expanding too often, so we make a judgement by counting buildings.
 					if (baseBuilder.Info.ProductionTypes.Contains(currentBuilding.Item)
 						|| baseBuilder.Info.TechTypes.Contains(currentBuilding.Item) || baseBuilder.Info.RefineryTypes.Contains(currentBuilding.Item))

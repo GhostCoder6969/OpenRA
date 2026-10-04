@@ -64,7 +64,7 @@ namespace OpenRA.Mods.Common.Widgets
 
 			var intValue = (int)value;
 
-			// Do normal rounding instead of floor/trucate; account for numbers >= 100000 being 6 decimal places or "TooBig".
+			// Do normal rounding instead of floor/truncate; account for numbers >= 100000 being 6 decimal places or "TooBig".
 			var frontPlaceMultipler = 1;
 			while (frontPlaceMultipler <= intValue && frontPlaceMultipler < 100000)
 				frontPlaceMultipler *= 10;

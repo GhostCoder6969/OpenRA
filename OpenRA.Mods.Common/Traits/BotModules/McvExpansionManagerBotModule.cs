@@ -304,8 +304,8 @@ namespace OpenRA.Mods.Common.Traits
 			 *
 			 *     so the weight can be: (indiceSideLengthSquare/2) - |(indiceResourceCellCount - (indiceSideLengthSquare/2))|, range from (0 to +indiceSideLengthSquare/2).
 			 *
-			 *     Note: In practive resource weight is not very important, we cannot let MCV go a long way just for a rich resource spot.
-			 *     We have to take only 1/4 of it, wich is (0 to +indiceSideLengthSquare/8),
+			 *     Note: In practice resource weight is not very important, we cannot let MCV go a long way just for a rich resource spot.
+			 *     We have to take only 1/4 of it, which is (0 to +indiceSideLengthSquare/8),
 			 *     and apply some additional method to filter the indice for acceptable resource (not too low).
 			 */
 			var indiceSideLengthSquare = resourceMapModule.GetIndiceSideLength() * resourceMapModule.GetIndiceSideLength();

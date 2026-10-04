@@ -18,7 +18,7 @@ using OpenRA.Support;
 namespace OpenRA.Mods.Common.MapGenerator
 {
 	/// <summary>
-	/// Replaces tiles to create smooth visual transistions based on "Lookup Adjacent Tile" rules.
+	/// Replaces tiles to create smooth visual transitions based on "Lookup Adjacent Tile" rules.
 	/// </summary>
 	public sealed class LatTiler
 	{

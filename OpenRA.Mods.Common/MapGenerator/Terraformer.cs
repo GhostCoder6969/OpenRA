@@ -2356,7 +2356,7 @@ namespace OpenRA.Mods.Common.MapGenerator
 			mpspawns = mpspawns.OrderBy(PolarPosition).ToList();
 
 			// Find a reasonable ("A") spawn. It should:
-			// - Have the largest possible preceeding angular gap from the preceeding spawn.
+			// - Have the largest possible preceding angular gap from the preceding spawn.
 			// - (Tie breaker) should be close to the left.
 			// - (Tie breaker 2) should be close to the top.
 			//

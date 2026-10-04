@@ -114,7 +114,7 @@ namespace OpenRA.Mods.Cnc.SpriteLoaders
 				var trimmedWidth = right - left + 1;
 				var trimmedHeight = bottom - top + 1;
 
-				// We must be careful to subract an even number
+				// We must be careful to subtract an even number
 				// of rows/columns to avoid sub-pixel offsets.
 				if ((trimmedWidth - origSize.Width) % 2 != 0)
 				{
